@@ -1,0 +1,6 @@
+{
+    "paths": [
+        "/var/lib/znc/users/*/moddata/log/*.log"
+    ],
+    "type": "znc-chatlog"
+}

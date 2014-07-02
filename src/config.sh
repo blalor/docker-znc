@@ -11,7 +11,8 @@ yum install -y znc
 
 mv program-znc.conf /etc/supervisor.d/
 mv logrotate-znc.conf /etc/logrotate.d/znc
-mv logstash-forwarder-znc.json /etc/logstash-forwarder.d/znc.json
+mv logstash-forwarder-znc-adminlog.json /etc/logstash-forwarder.d/znc-adminlog.json
+mv logstash-forwarder-znc-chatlog.json /etc/logstash-forwarder.d/znc-chatlog.json
 
 mv reorganize_irc_logs.sh /etc/cron.daily/
 
